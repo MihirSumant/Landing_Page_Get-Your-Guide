@@ -1,0 +1,129 @@
+.main-section{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/GetYourGuide/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-card{
+    width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card-header{
+    padding-bottom: 2rem;
+}
+
+.card-main{
+    display: flex;
+
+}
+
+.card-left{
+    padding: 2em;
+}
+
+.card-right{
+    padding: 2em;
+}
+
+.card-right h1{
+    font-family: 'Rozha One', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.card-right span{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: "Libre Franklin",sans-serif;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.book{
+    width: 18rem;
+}
+
+.button-container{
+    width: 100%;
+    
+}
+
+.download-button{
+    width: 100%;
+    background-color: rgb(227,202,129);
+    border: none;
+    color: rgb(53,67,74);
+    padding: 20px 0px;
+    font-weight: 700;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+    font-family: "Libre Franklin",sans-serif;
+}
+
+ .button-container :hover{
+    background-color: rgb(176,157,100);
+    transition-duration: 300ms;
+}
+
+
+.footer-text{
+    font-size: 0.8rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+@media (max-width: 1024px) {
+    
+    .content-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .card-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-text {
+        font-size: 0.75rem;
+        padding: 20px 1px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    .card-right{
+        padding: 3rem;
+    }
+
+    .card-right h1 {
+        font-size: 2rem;
+    }
+
+    .card-right span {
+        font-size: 1.125rem;
+    }
+
+
+}
