@@ -177,6 +177,7 @@
 
 .invalid-email-show{
     display: block;
+    color: red;
 }
 
 .guide-sent {
