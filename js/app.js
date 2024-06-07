@@ -83,6 +83,8 @@ window.onload = function () {
         .getElementsByClassName("button-container")[1]
         .classList.add("hover-disabled");
       guideSent.classList.add("guide-sent-show");
+    } else if (emailInput.value == null) {
+      addErrors();
     } else {
       addErrors();
     }
